@@ -311,6 +311,7 @@ class formulizeListOfEntriesScreenHandler extends formulizeScreenHandler {
             $thisFidCaptions = $thisFidObj->getVar('elementCaptions');
             $thisFidColheads = $thisFidObj->getVar('elementColheads');
             $thisFidHandles = $thisFidObj->getVar('elementHandles');
+		    
             foreach($thisFidElements as $i=>$thisFidElement) {
                 $elementHeading = $thisFidColheads[$i] ? $thisFidColheads[$i] : $thisFidCaptions[$i];
                 $elementOptions[$thisFidHandles[$i]] = printSmart(trans(strip_tags($elementHeading)), 75);
