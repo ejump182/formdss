@@ -616,9 +616,18 @@ $modversion['templates'][] = array(
 	'file' => 'admin/managekeys.html',
 	'description' => '');
 $modversion['templates'][] = array(
-	'file' => 'admin/managetokens.html',
+	'file' => 'admin/home2.html',
 	'description' => '');
-
+$modversion['templates'][] = array(
+	'file' => 'admin/home_sections2.html',
+	'description' => '');
+$modversion['templates'][] = array(
+    'file' => 'admin/home_sections2_sidebars.html',
+    'description' => '');
+/*
+$modversion['templates'][] = array(
+	'file' => 'admin/managetokens.html',
+	'description' => '');*/
     
 //	Module Configs
 // $xoopsModuleConfig['t_width']
